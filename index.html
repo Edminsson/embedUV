@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    
+    </head>
+    <body>
+        <h1>Mini-universalviewer</h1>
+
+        <div class="bild-beta-uv">
+            <div class="uv"
+                    data-locale="sv-SE:Svenska"
+                    data-config="/bildvisning/UVConfig?batchnr=C0000272"
+                    data-fullscreen="false"
+                    data-haspagenumbers="true"
+                    data-canvasIndex="0"
+                    data-uri="https://iiif.riksarkivet.se/arkis!C0000272/manifest"
+                    style="width:100%;
+                    height:99.7vh;
+                    /*height:99.5vh;*/
+                    background-color: #0B151F">
+            </div>
+        </div>
+        
+        <!--<script type="text/javascript" id="embedUV" src="http://localhost:4444/universalviewer/lib/embed.js"></script>-->
+        <script type="text/javascript" id="embedUV" src="/node_modules/universalviewer/dist/uv-1.6.14/lib/embed.js"></script>
+
+    </body>
+</html>
