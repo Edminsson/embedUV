@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Edminsson/embedUV#readme",
   "dependencies": {
-    "universalviewer": "^1.6.14"
+    "universalviewer": "git://github.com/universalviewer/universalviewer.git#dev"
   }
 }
