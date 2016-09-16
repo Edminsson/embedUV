@@ -7,7 +7,7 @@
     "preserveViewport": true,
     "rightPanelEnabled": true,
     "searchWithinEnabled": true,
-    "theme": "uv-sv-SE-theme",
+    "theme": "uv-en-GB-theme",
     "useArrowKeysToNavigate": false,
     "navigatorEnabled": false,
     "zoomPerClickEnabled": false,
@@ -123,10 +123,6 @@
       {
         "name": "en-GB",
         "label": "English (GB)"
-      },
-      {
-        "name": "sv-SE",
-        "label": "Svenska"
       }
     ]
   }
