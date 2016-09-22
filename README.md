@@ -10,3 +10,5 @@ If there is a problem loading files it could depend on a change of version. Righ
 This problem could be managed by a gulp task but that would be kind of overkill.
 I could also use express instead of http-server.
 
+Note that the app.html page in the root folder does not seem to be used since UV loads the one on the same folder as the embed.js file in the index.html.
+
